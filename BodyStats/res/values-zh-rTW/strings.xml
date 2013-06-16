@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<string name="app_name">Body Stats</string>
+<string name="app_subtitle">協助您達到您的減肥目標</string>
+<string name="Hips">臀圍：</string>
+<string name="Weight">體重：</string>
+<string name="Waist">腰圍：</string>
+<string name="save_button_text">儲存</string>
+<string name="graph_button_text">圖表</string>
+<string name="Chest">胸圍：</string>
+<string name="Thigh">大腿：</string>
+<string name="Arm">手臂：</string>
+<string name="suggestion_menu">傳送建議</string>
+<string name="about_menu_title">關於</string>
+<string name="clear_menu">清除儲存的統計資料</string>
+
+<string name="clear_button_text">清除所有</string>
+<string name="about_text">Body Stats是一種簡單、快速的方式來記錄和檢視您身體的尺寸，以便監控您的減肥進程。\n\n
+在您從醫生或私人教練那獲得身體的尺寸後，僅需要輸入和儲存它們。\n\n
+Body Stats按方便閱讀的方式列出了您的所有項目，按日期排序的清單可以讓您看到在哪些方面您有進步。\n\n
+Body Stats致力於為您帶來一個*有用*的軟體，包含所有的額外功能，也包括那些同類別軟體所忽略的功能。</string>
+<string name="about_label">關於 Body Stats</string>
+<string name="backup_menu">備份/還原</string>
+<string name="gym_menu">找一個健身房</string>
+<string name="expandable_list_action">開啟瀏覽器</string>
+<string name="motivation_title">動力</string>
+<string name="transformation">每週的變化</string>
+<string name="personal_development">個人開發</string>
+
+<string name="journal_menu">日記</string>
+
+
+<string name="Tranformation_Link">www.bodybuilding.com/fun/trans_f.htm</string>
+
+
+<string name="hidden_text">有人讓我寫一個只需要輸入身體尺寸的簡單軟體。她在Android市場上翻了個天，卻只是找到了BMI小算盤以及一些不符合她需要的軟體。軟體非常的簡單，因為看上去它什麼都沒有。當我開始寫這個程式之後，隨著開發的進行，軟體被賦予越來越多的功能，變得鮮活起來。
+\n\n 
+	我衷心希望這個軟體能服務好你，協助你實現你的減肥目標。</string>
+<string name="hidden_label">獻給我的妻子珍妮弗...</string>
+<string name="gym_subtitle">女性專用健身房</string>
+<string name="tell_a_friend_menu_title">告訴好友</string>
+
+
+<string name="empty_fields_text">輸入統計資料是一個非常艱巨的工作。但是如果您只填寫一個欄位，我們可以開始以圖示顯示您的進程。\n\n 點擊屏幕然後重試 :-) \n\n</string>
+<string-array name="databaseOptions"><item>備份資料庫</item>
+<item>還原資料庫</item>
+</string-array>
+<string name="disclaimer_text">Body Stats不會以任何方式承諾或暗示使用此軟體能讓您完成減肥或是達到指定的減肥目標。\n\n開始任何的飲食或者減肥計劃之前，請先咨詢醫生。</string>
+<string name="disclaimer">法律宣告</string>
+<string name="legal_disclaimer">法律宣告</string>
+<string name="chest_label">胸圍：</string>
+<string name="waist_label">腰圍：</string>
+<string name="hips_label">臀圍：</string>
+<string name="arm_label">手臂：</string>
+<string name="thigh_label">大腿：</string>
+<string name="weight_label">體重：</string>
+<string name="save_changes">儲存變更</string>
+<string name="dismiss_changes">放棄變更</string>
+<string name="delete_entries">刪除項目</string>
+<string name="history">歷史</string>
+<string name="find_a_gym">找一個健身房</string>
+<string name="no_stats_saved">未儲存任何統計資料</string>
+<string name="no_journal_saved">目前您未儲存任何日記項目</string>
+<string name="journal_update_entry">日記 - 更新項目</string>
+<string name="update">更新</string>
+<string name="delete">刪除</string>
+<string name="journal">日記</string>
+<string name="save">儲存</string>
+<string name="clear">清除</string>
+<string name="list_all">列出所有</string>
+<string name="show">顯示</string>
+<string name="transformation_of_the_week">每週的變化</string>
+<string name="bodybuilding_com">Bodybuilding.com</string>
+<string name="motivation_of_the_day">每日激勵</string>
+<string name="womensfitness_net">WomensFitness.net</string>
+<string name="biggest_loser_club">減肥達人俱樂部</string>
+<string name="biggestloserclub_com">BiggestLoserClub.com</string>
+<string name="weight_loss_motivation">激情減肥博客</string>
+<string name="turkeywalk_com">TurkeyWalk.com</string>
+<string name="making_weight_loss_fun">讓減肥過程變得愉快</string>
+<string name="projectweightloss_com">ProjectWeightLoss.com</string>
+<string name="motivation_and_goalsetting">鍛煉的動力和既定目標</string>
+<string name="sportsmedicine">SportsMedicine.About.com</string>
+<string name="exercise_motivation">動力運用嚮導</string>
+<string name="todaysbestweightloss_com">TodaysBestWeightloss.com</string>
+<string name="hundred_lb_weightloss">減掉100磅的體重</string>
+<string name="youtube_video">YouTube 視頻</string>
+<string name="what_I_ate">吃什麼能讓我減掉100磅</string>
+<string name="healthy_hot_moma">YouTube 視頻 - HealthyHotMoma</string>
+<string name="joy_fit_bianca">開心減肥俱樂部 - 比安卡減掉了100磅</string>
+<string name="joy_fit_youtube">YouTube 視頻 - 開心減肥俱樂部</string>
+<string name="joy_fit_mom">開心減肥俱樂部 - 媽媽減掉了127磅</string>
+<string name="joy_fit_300lbs">開心減肥俱樂部 - 妻子減掉了300磅</string>
+<string name="joy_fit_lisa">開心減肥俱樂部 - 麗莎曾經有 340 磅</string>
+<string name="kim_benson">金本森減掉了213磅</string>
+<string name="today_show_youtube">YouTube 視頻 - 今日秀</string>
+<string name="woman_lost_500lbs">關於一個減掉500磅的女人的傳奇故事</string>
+<string name="abc_news_youtube">YouTube 視頻 - ABC 新聞</string>
+<string name="shay_interview">謝伊索雷爾斯 - 減肥達人第8季訪談</string>
+<string name="dietsinreview_youtube">YouTube 視頻 - DietsInReview.com</string>
+<string name="amanda_answers_questions_1">阿曼達(來自減肥達人)回答您的問題</string>
+<string name="toast_are_you_sure">您*絕對*確定要刪除這個項目？一旦繼續，它也就沒了。</string>
+<string name="toast_made_a_mistake">不！ - 我弄錯了！</string>
+<string name="toast_delete_entry">是 - 刪除這個項目</string>
+<string name="toast_stats_saved">統計已成功儲存</string>
+<string name="toast_entry_deleted">已刪除選取的項目。</string>
+<string name="january">一月</string>
+<string name="february">二月</string>
+<string name="march">三月</string>
+<string name="april">四月</string>
+<string name="may">五月</string>
+<string name="june">六月</string>
+<string name="july">七月</string>
+<string name="august">八月</string>
+<string name="september">九月</string>
+<string name="october">十月</string>
+<string name="november">十一月</string>
+<string name="december">十二月</string>
+<string name="toast_no_journal_saved">沒有日記項目可供儲存。</string>
+<string name="toast_journal_saved">日記項目已儲存</string>
+<string name="menu_sort_new_to_old">從新到舊排序</string>
+<string name="menu_sort_old_to_new">從舊到新排序</string>
+<string name="toast_sort_new_to_old">變更排序方式：最新到最舊</string>
+<string name="toast_sort_old_to_new">變更排序方式：最舊到最新</string>
+<string name="stats_saved_on">統計儲存在  </string>
+<string name="chest_saved">\n\n 胸圍：</string>
+<string name="hips_saved">\n\n 臀圍：</string>
+<string name="thigh_saved">\n\n 大腿：</string>
+<string name="waist_saved">\n\n 腰圍：</string>
+<string name="arm_saved">\n\n 手臂：</string>
+<string name="weight_saved">\n\n 體重：</string>
+<string name="send_suggestion_using">傳送一個使用推薦</string>
+<string name="tell_a_friend_using">推薦給好友使用</string>
+<string name="tell_a_friend_email_body">這裡有一個我已經開始使用，我想你也會喜歡的軟體，它叫Body Stats。它會儲存你的關於你身體的統計資料，用圖示顯示它們，甚至有一些讓你時刻保持幹勁的連結。它甚至能協助你找到一個女性專用健身房。</string>
+<string name="tell_a_friend_email_subject">有一個非常棒的軟體，叫 Body Stats</string>
+</resources>

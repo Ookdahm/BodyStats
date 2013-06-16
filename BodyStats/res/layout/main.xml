@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:myapp="http://schemas.android.com/apk/res/com.androidsfuture.bodystats"
+	android:id="@+id/RelativeLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:paddingTop="15dip"
+	android:background="#B93B8F" 
+	 >
+	 
+	<com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:animation="@anim/fade"
+		myapp:backgroundColor="#000000"
+		myapp:primaryTextColor="#FFFFFF"
+		myapp:secondaryTextColor="#CCCCCC"
+		myapp:keywords="woman|women"
+	/>	 
+	
+	<ImageButton 
+		android:id="@+id/ImageButton01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:padding="35dip"
+		android:layout_toLeftOf="@+id/BodyStats_Title"
+		android:background="@drawable/gymnastics_48"></ImageButton>
+		
+	<TextView 
+		android:text="@string/app_name" 
+		android:id="@+id/BodyStats_Title" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="40dip" 
+		android:layout_centerHorizontal="true"
+		android:paddingTop="9dip"
+		android:paddingLeft="15dip"
+		android:textColor="@color/text_color"></TextView>
+	<TextView 		
+		android:text="@string/app_subtitle" 
+		android:id="@+id/BodyStats_Subtitle" 
+		android:layout_below="@id/BodyStats_Title" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="13dip"
+		android:layout_centerHorizontal="true"
+		android:paddingTop="5dip"
+		android:paddingBottom="6dip"
+		android:paddingLeft="10dip"></TextView>
+	<TextView 
+		android:id="@+id/Date_Text" 
+		android:layout_below="@id/BodyStats_Subtitle" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:paddingTop="5dip"
+		android:paddingBottom="20dip"
+		android:paddingLeft="10dip"
+		android:textSize="29dip"></TextView>
+	<TableLayout 
+		android:id="@+id/TableLayout01" 
+		android:layout_below="@id/Date_Text" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		>
+		<TableRow 
+			android:id="@+id/TableRow01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layoutAnimation="@anim/layout_animation_row_left_slide_10"
+			>
+				
+				<TextView 
+					android:text="@string/Chest" 
+					android:textSize="16sp"
+					android:id="@+id/Chest_Text" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingLeft="11dip"
+					android:gravity="right"></TextView>
+				
+				<EditText 
+					android:id="@+id/Chest_Edit" 
+					android:layout_width="90dp" 
+					android:layout_height="wrap_content"
+					android:inputType="phone"
+					android:maxHeight="10sp"
+					android:paddingLeft="50dip"></EditText>
+					
+				<TextView 
+					android:text="@string/Waist" 
+					android:textSize="16sp"
+					android:id="@+id/Waist_Text" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:paddingLeft="10dip"></TextView>
+					
+				<EditText 
+					android:id="@+id/Waist_Edit" 
+					android:layout_width="90dp" 
+					android:layout_height="wrap_content"
+					android:inputType="phone"
+					android:maxWidth="100sp"
+					android:maxHeight="10sp"
+					android:paddingLeft="50dip"></EditText>
+				
+		</TableRow>
+		<TableRow 
+			android:id="@+id/TableRow02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layoutAnimation="@anim/layout_animation_row_left_slide_20">
+				
+				<TextView 
+					android:text="@string/Hips" 
+					android:textSize="16sp"
+					android:id="@+id/Hips_Text" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingLeft="18dip"
+					android:gravity="right"></TextView>
+					
+				<EditText  
+					android:id="@+id/Hips_Edit" 
+					android:layout_width="90dp" 
+					android:layout_height="wrap_content"
+					android:inputType="phone"
+					android:maxWidth="100sp"
+					android:maxHeight="10sp"
+					android:paddingLeft="50dip"></EditText>
+					
+				<TextView 
+					android:text="@string/Arm" 
+					android:textSize="16sp"
+					android:id="@+id/Arm_Text" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingLeft="20dip"
+					android:gravity="right"></TextView>
+					
+				<EditText  
+					android:id="@+id/Arm_Edit" 
+					android:layout_width="90dp" 
+					android:layout_height="wrap_content"
+					android:inputType="phone"
+					android:maxWidth="100sp"
+					android:maxHeight="10sp"
+					android:paddingLeft="50dip"></EditText>
+					
+		</TableRow>
+		<TableRow 
+			android:id="@+id/TableRow03" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layoutAnimation="@anim/layout_animation_row_left_slide_30">
+		
+				<TextView 
+					android:text="@string/Thigh" 
+					android:textSize="16sp"
+					android:id="@+id/Thigh_Text" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingLeft="18dip"
+					android:gravity="right"></TextView>
+					
+				<EditText 
+					android:id="@+id/Thigh_Edit" 
+					android:layout_width="90dp" 
+					android:layout_height="wrap_content"
+					android:inputType="phone"
+					android:maxWidth="100sp"
+					android:maxHeight="10sp"
+					android:paddingLeft="50dip"></EditText>
+					
+				<TextView 
+					android:text="@string/Weight" 
+					android:textSize="16sp"
+					android:id="@+id/Weight_Text" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingLeft="20dip"
+					android:gravity="right"></TextView>
+					
+				<EditText 
+					android:id="@+id/Weight_Edit" 
+					android:layout_width="90dp" 
+					android:layout_height="wrap_content"
+					android:inputType="phone"
+					android:maxWidth="100sp"
+					android:maxHeight="10sp"
+					android:paddingLeft="50dip"></EditText>
+		</TableRow>
+	
+	</TableLayout>
+
+
+	<TableLayout 
+		android:id="@+id/TableLayout02" 
+		android:layout_below="@id/TableLayout01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:paddingTop="10dip">
+		
+			<TableRow
+				android:id="@+id/TableRow01" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:paddingLeft="15dip"
+				android:layoutAnimation="@anim/layout_animation_row_left_slide_50" >
+			<Button 
+					android:text="@string/save_button_text" 
+					android:id="@+id/Save_Button" 
+					android:layout_width="fill_parent" 
+					android:layout_height="fill_parent"
+					android:layout_gravity="right" ></Button>
+					
+			<Button 
+					android:text="@string/show" 
+					android:id="@+id/Show_Button" 
+					android:layout_width="fill_parent" 
+					android:layout_height="fill_parent"
+					android:layout_gravity="center"
+					 ></Button>
+					
+			<Button 
+					android:text="@string/clear_button_text"
+					android:id="@+id/Clear_Button" 
+					android:layout_width="fill_parent" 
+					android:layout_height="fill_parent"
+					android:layout_gravity="left"
+					 ></Button>
+			</TableRow>
+
+</TableLayout>
+	
+	
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:paddingTop="15dip"
+	android:paddingLeft="8dip"
+  	android:background="@drawable/list_highlight_active"
+  	android:layoutAnimation="@anim/layout_bottom_to_top_slide_70" >
+  	
+  	
+	<ImageButton 
+		android:id="@+id/ImageButton01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:padding="35dip"
+		android:paddingLeft="15dip"
+		android:background="@drawable/gymnastics_48"></ImageButton>
+ 		
+ 	<TextView 
+		android:text="@string/journal"
+		android:id="@+id/Title_Journal" 
+		android:layout_toRightOf="@id/ImageButton01" 
+		android:textSize="30dip"
+		android:textColor="@color/text_color"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:paddingLeft="39dip"
+		android:paddingTop="15dip"
+		android:paddingBottom="10dip"></TextView>
+
+		<TextView 
+				android:textSize="18sp"
+				android:id="@+id/Journal_Date" 
+				android:layout_below="@id/Title_Journal" 
+				android:layout_toRightOf="@id/ImageButton01" 
+			 	android:layout_centerHorizontal="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingLeft="25dip"
+				android:paddingBottom="10dip"></TextView>
+		<TextView 
+				android:textSize="18sp"
+				android:id="@+id/Journal_Text_Time" 
+				android:layout_centerHorizontal="true"
+				android:layout_below="@id/Journal_Date" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dip"
+				android:paddingBottom="10dip"></TextView>
+		<Button 
+				android:text="@string/save" 
+				android:id="@+id/Journal_Save_Button" 
+				android:layout_below="@id/Journal_Text_Time" 
+				android:layout_width="75dip" 
+				android:layout_height="wrap_content"
+				></Button>
+		<Button 
+				android:text="@string/clear" 
+				android:id="@+id/Journal_Clear_Button" 
+				android:layout_below="@id/Journal_Save_Button" 
+				android:layout_width="75dip" 
+				android:layout_height="wrap_content"
+				></Button>
+		<Button 
+				android:text="@string/list_all" 
+				android:id="@+id/Journal_List_Button" 
+				android:layout_below="@id/Journal_Clear_Button" 
+				android:layout_width="75dip" 
+				android:layout_height="wrap_content"
+				></Button>
+
+		<EditText 
+				android:id="@+id/JournalEntry" 
+				android:inputType="textCapSentences|textMultiLine"
+				android:gravity="top"
+				android:layout_toRightOf="@id/Journal_Save_Button" 
+				android:layout_below="@id/Journal_Text_Time"
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent"
+				></EditText>
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+<!-- <item android:id="@+id/Backup_Menu"	android:title="@string/backup_menu"	android:icon="@drawable/ic_menu_save"></item>   -->
+
+<item 
+	android:id="@+id/Gym_Menu" 
+	android:title="@string/gym_menu" 
+	android:icon="@drawable/ic_menu_allfriends"></item>
+
+<item 
+	android:title="@string/motivation_title" 
+	android:icon="@drawable/ic_menu_myplaces" 
+	android:id="@+id/Motivation_Menu"></item>
+<item 
+	android:title="@string/journal_menu" 
+	android:id="@+id/Journal_Menu" 
+	android:icon="@drawable/ic_menu_edit"></item>
+<item 
+	android:id="@+id/Heart_Menu" 
+	android:icon="@drawable/love" 
+	android:enabled="false" android:title="Heart Rate (upcoming)" android:visible="false"></item>
+
+<item 
+	android:title="@string/about_menu_title" 
+	android:id="@+id/About_Menu" 
+	android:icon="@drawable/ic_menu_info_details"></item>
+<item 
+	android:id="@+id/Suggestion_Menu" 
+	android:title="@string/suggestion_menu"></item>
+<item 
+	android:id="@+id/Tell_A_Friend_Menu" 
+	android:title="@string/tell_a_friend_menu_title"></item>
+<item 
+	android:id="@+id/Disclaimer_Menu" 
+	android:title="@string/disclaimer"></item>
+<item 
+	android:id="@+id/Hidden_Menu"></item>
+
+</menu>

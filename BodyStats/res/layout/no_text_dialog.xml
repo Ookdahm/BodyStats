@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:id="@+id/layout_root"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingLeft="10dip"
+              android:paddingTop="10dip"
+              >
+    
+    
+	<ImageView 
+			android:id="@+id/ImageView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:background="@drawable/gymnastics_64"
+			android:paddingTop="50dip"
+			android:layout_marginRight="10dp"
+			
+			></ImageView>
+	<TextView 
+			android:text="@string/empty_fields_text"
+			android:id="@+id/EmptyFields" 
+			android:layout_toRightOf="@id/ImageView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:paddingRight="10dip"></TextView>
+</RelativeLayout>

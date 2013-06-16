@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<string name="app_name">Body Stats</string>
+<string name="app_subtitle">Helping You Reach Your Fitness Goals</string>
+<string name="Hips">Hips:</string>
+<string name="Weight">Weight:</string>
+<string name="Waist">Waist:</string>
+<string name="save_button_text">Save</string>
+<string name="graph_button_text">Graph</string>
+<string name="Chest">Chest:</string>
+<string name="Thigh">Thigh:</string>
+<string name="Arm">Arm:</string>
+<string name="suggestion_menu">Send Suggestion</string>
+<string name="about_menu_title">About</string>
+<string name="clear_menu">Clear Saved Stats</string>
+
+<string name="clear_button_text">Clear All</string>
+<string name="about_text">Body Stats is a simple, quick way to record and 
+view your measurements so you can monitor your progress. \n\n
+
+After you get your measurements from the doctor or your personal 
+trainer, just enter them and save. \n\n
+
+Body Stats lists all your entries in an easy-to-read, dated list so you can easily 
+see where you\'re making improvement.\n\n
+
+Android\'s Future is dedicated to bringing you *useful* applications packed full 
+of extra features similar apps omit.</string>
+<string name="about_label">About Body Stats</string>
+<string name="backup_menu">Backup/Restore</string>
+<string name="gym_menu">Find a Gym</string>
+<string name="expandable_list_action">Open browser</string>
+<string name="motivation_title">Motivation</string>
+<string name="transformation">Tranformation of the Week</string>
+<string name="personal_development">Personal Development</string>
+
+<string name="journal_menu">Journal</string>
+
+
+<string name="Tranformation_Link">www.bodybuilding.com/fun/trans_f.htm</string>
+
+
+<string name="hidden_text">  who asked me 
+to write an app to simply add her body measurements. She looked all through the Android 
+Market but only found BMI calculators and other things that did everything except what she was looking for. 
+Simple as it seemed, nothing existed. Once I got started, it took on a life of it own with more 
+and more features being added as the app developed. \n\n 
+
+	It is my sincere hope that this app serves you well and helps you 
+achieve your fitness goals.</string>
+<string name="hidden_label">Dedicated to my wife Jennifer...</string>
+<string name="gym_subtitle">Women Only Gyms</string>
+<string name="tell_a_friend_menu_title">Tell a Friend</string>
+
+
+<string name="empty_fields_text">Entering stats can be emotionally daunting. But if you fill in just one field, we can start charting your progress.\n\n Touch the screen and let\'s try again :-) \n\n</string>
+<string-array name="databaseOptions"><item>Backup Database</item>
+<item>Restore Database</item>
+</string-array>
+<string name="disclaimer_text">Android\'s Future does not in any way promise or imply that you will loose weight or achieve any other specific fitness goal  by using this applicaiton. \n\n Consult a physician before undertaking any diet or weight loss program.</string>
+<string name="disclaimer">Legal Disclaimer</string>
+<string name="legal_disclaimer">Legal Disclaimer</string>
+<string name="chest_label">Chest: </string>
+<string name="waist_label">Waist: </string>
+<string name="hips_label">Hips: </string>
+<string name="arm_label">Arm: </string>
+<string name="thigh_label">Thigh: </string>
+<string name="weight_label">Weight: </string>
+<string name="save_changes">Save Changes</string>
+<string name="dismiss_changes">Dismiss Changes</string>
+<string name="delete_entries">Delete Entries</string>
+<string name="history">History</string>
+<string name="find_a_gym">Find a Gym</string>
+<string name="no_stats_saved">No stats have been saved</string>
+<string name="no_journal_saved">Currently you have no journal entries saved</string>
+<string name="journal_update_entry">Journal - Update Entry</string>
+<string name="update">Update</string>
+<string name="delete">Delete</string>
+<string name="journal">Journal</string>
+<string name="save">Save</string>
+<string name="clear">Clear</string>
+<string name="list_all">List All</string>
+<string name="show">Show</string>
+<string name="transformation_of_the_week">Transformation of the Week</string>
+<string name="bodybuilding_com">Bodybuilding.com</string>
+<string name="motivation_of_the_day">Motivation of the Day</string>
+<string name="womensfitness_net">WomensFitness.net</string>
+<string name="biggest_loser_club">Biggest Loser Club</string>
+<string name="biggestloserclub_com">BiggestLoserClub.com</string>
+<string name="weight_loss_motivation">Weight Loss Motivation Blog</string>
+<string name="turkeywalk_com">TurkeyWalk.com</string>
+<string name="making_weight_loss_fun">Making Weight Loss Fun</string>
+<string name="projectweightloss_com">ProjectWeightLoss.com</string>
+<string name="motivation_and_goalsetting">Motivation and Goal-Setting for Exercise</string>
+<string name="sportsmedicine">SportsMedicine.About.com</string>
+<string name="exercise_motivation">Exercise Motivation Guide</string>
+<string name="todaysbestweightloss_com">TodaysBestWeightloss.com</string>
+<string name="hundred_lb_weightloss">100 Pound Weight Loss</string>
+<string name="youtube_video">YouTube Video</string>
+<string name="what_I_ate">What I Ate to Loose 100 Pounds</string>
+<string name="healthy_hot_moma">YouTube Video - HealthyHotMoma</string>
+<string name="joy_fit_bianca">Joy Fit Club - Bianca Lost 100 pounds</string>
+<string name="joy_fit_youtube">YouTube Video - Joy Fit Club</string>
+<string name="joy_fit_mom">Joy Fit Club - Mom Sheds 127 pounds</string>
+<string name="joy_fit_300lbs">Joy Fit Club - Woman Shed 300 Pounds</string>
+<string name="joy_fit_lisa">The Joy Fit Club - Lisa used to weigh 340 pounds</string>
+<string name="kim_benson">Kim Benson Lost 213 pounds</string>
+<string name="today_show_youtube">YouTube Video - Today Show</string>
+<string name="woman_lost_500lbs">The Amazing Story of a Woman Who Lost 500 Pounds</string>
+<string name="abc_news_youtube">YouTube Video - ABC News</string>
+<string name="shay_interview">Shay Sorrells - Biggest Loser Season 8 Interview</string>
+<string name="dietsinreview_youtube">YouTube Video - DietsInReview.com</string>
+<string name="amanda_answers_questions_1">Amanda (from Biggest Loser) Answers Your Questions</string>
+<string name="toast_are_you_sure">Are you *ABSOLUTELY* sure you want to delete this entry? Once it\'s gone, it\'s gone.</string>
+<string name="toast_made_a_mistake">No! - I made a mistake!</string>
+<string name="toast_delete_entry">Yes - delete this entry</string>
+<string name="toast_stats_saved">Stats successfully saved</string>
+<string name="toast_entry_deleted">Selected entry was deleted.</string>
+<string name="january">January</string>
+<string name="february">February</string>
+<string name="march">March</string>
+<string name="april">April</string>
+<string name="may">May</string>
+<string name="june">June</string>
+<string name="july">July</string>
+<string name="august">August</string>
+<string name="september">September</string>
+<string name="october">October</string>
+<string name="november">November</string>
+<string name="december">December</string>
+<string name="toast_no_journal_saved">There is no journal entry to save.</string>
+<string name="toast_journal_saved">Journal entry saved!</string>
+<string name="menu_sort_new_to_old">Sort New to Old</string>
+<string name="menu_sort_old_to_new">Sort Old to New</string>
+<string name="toast_sort_new_to_old">Sort order changed: Newest to Oldest</string>
+<string name="toast_sort_old_to_new">Sort order changed: Oldest to Newest</string>
+<string name="stats_saved_on">Stats saved on  </string>
+<string name="chest_saved">\n\n Chest:</string>
+<string name="hips_saved">\n\n Hips:  	</string>
+<string name="thigh_saved">\n\n Thigh:</string>
+<string name="waist_saved">\n\n Waist:</string>
+<string name="arm_saved">\n\n Arm:    	</string>
+<string name="weight_saved">\n\n Weight:  </string>
+<string name="send_suggestion_using">Send Suggestion Using</string>
+<string name="tell_a_friend_using">Tell A Friend Using</string>
+<string name="tell_a_friend_email_body">Here\'s an app I\'ve started using that I think you will like called Body Stats. It saves your body stats, graphs them and even has links to keep you motivated. It even helps you find a womens only gym.</string>
+<string name="tell_a_friend_email_subject">Here\'s a great new app called Body Stats</string>
+</resources>

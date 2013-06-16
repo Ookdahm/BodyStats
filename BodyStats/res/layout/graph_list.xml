@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/RelativeLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:paddingTop="15dip"
+	android:background="@drawable/list_highlight_active" >
+	<!-- android:paddingLeft="20dip" -->
+	<!-- android:paddingRight="5dip" -->
+	
+	<LinearLayout
+		android:id="@+id/LinearLayout01"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:paddingRight="60dip" >
+		<ImageView 
+				android:id="@+id/ImageButton01" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:padding="35dip"
+				android:paddingLeft="15dip"
+				android:background="@drawable/gymnastics_48"></ImageView>
+		<TextView 
+				android:text="@string/history"
+				android:id="@+id/History" 
+				android:layout_toRightOf="@id/ImageButton01" 
+				android:textSize="30dip"
+				android:textColor="@color/text_color"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingLeft="10dip"
+				android:paddingTop="15dip"
+				android:paddingBottom="30dip"></TextView>
+	</LinearLayout>
+
+		
+
+</RelativeLayout>

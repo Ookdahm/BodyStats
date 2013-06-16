@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="3dip"
+  android:background="@drawable/list_highlight_active" >
+		<TextView 
+				 
+				android:id="@+id/_ID" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingLeft="15dip"></TextView>
+		<TextView 
+				android:textColor="@color/text_color"
+				android:textSize="20dip"
+				android:id="@+id/Date_List" 
+				android:layout_below="@id/_ID" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingLeft="15dip"></TextView>
+		<TableLayout 
+				android:id="@+id/TableLayout01" 
+				android:layout_below="@id/Date_List" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				 android:stretchColumns="1">
+							<TableRow>
+									<TextView 
+											
+											android:text="@string/chest_label" 
+											android:id="@+id/Chest_Label" 
+											android:layout_below="@id/Date_List" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content" 
+											android:paddingLeft="15dip"
+											android:paddingRight="5dip"></TextView>
+									<TextView 
+											
+											android:id="@+id/Chest_List" 
+											android:layout_below="@id/Date_List" 
+											android:layout_toRightOf="@id/Chest_Label" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content"></TextView>
+									<TextView 
+											android:layout_column="5"
+											android:text="@string/waist_label" 
+											android:id="@+id/Waist_Label" 
+											android:layout_below="@id/Date_List" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content" 
+											android:gravity="right"
+											android:padding="5dip"
+											></TextView>
+									<TextView 
+											
+											android:id="@+id/Waist_List" 
+											android:layout_below="@id/Date_List" 
+											android:layout_toRightOf="@id/Waist_Label" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content"
+											android:paddingRight="15dip"></TextView>
+							</TableRow>
+							<TableRow>
+									<TextView 
+											
+											android:text="@string/hips_label" 
+											android:id="@+id/Hips_Label" 
+											android:layout_below="@id/Chest_Label" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content" 
+											android:paddingLeft="15dip"
+											android:paddingRight="5dip"></TextView>
+									<TextView 
+											
+											android:id="@+id/Hips_List" 
+											android:layout_below="@id/Date_List" 
+											android:layout_toRightOf="@id/Hips_Label" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content"></TextView>
+									<TextView 
+											android:layout_column="5"
+											android:text="@string/arm_label" 
+											android:id="@+id/Arm_Label" 
+											android:layout_below="@id/Waist_List" 
+											android:layout_toRightOf="@id/Hips_List" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content" 
+											android:gravity="right"
+											android:padding="5dip"></TextView>
+									<TextView 
+											android:id="@+id/Arm_List" 
+											android:layout_below="@id/Waist_List" 
+											android:layout_toRightOf="@id/Arm_Label" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content"
+											android:paddingRight="15dip"></TextView>
+							</TableRow>
+							<TableRow>
+									<TextView 
+											
+											android:text="@string/thigh_label" 
+											android:id="@+id/Thigh_Label" 
+											android:layout_below="@id/Hips_Label" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content" 
+											android:paddingLeft="15dip"
+											android:paddingRight="5dip"></TextView>
+									<TextView 
+											
+											android:id="@+id/Thigh_List" 
+											android:layout_below="@id/Hips_Label" 
+											android:layout_toRightOf="@id/Thigh_Label" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content"></TextView>
+									<TextView 
+										android:layout_column="5"
+											android:text="@string/weight_label" 
+											android:id="@+id/Weight_Label" 
+											android:layout_below="@id/Arm_Label" 
+											android:layout_toRightOf="@id/Thigh_List" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content" 
+											android:gravity="right"
+											android:padding="5dip"></TextView>
+									<TextView 
+											android:id="@+id/Weight_List" 
+											android:layout_below="@id/Arm_List" 
+											android:layout_toRightOf="@id/Weight_Label" 
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content"
+											android:paddingRight="15dip"></TextView>
+								</TableRow>
+			</TableLayout>
+
+
+</RelativeLayout>

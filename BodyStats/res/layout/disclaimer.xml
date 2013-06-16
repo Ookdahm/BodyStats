@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:padding="25dip"
+  >
+  
+  <ImageButton 
+		android:id="@+id/ImageButton01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:paddingRight="30dip"
+		android:paddingLeft="15dip"
+		android:background="@drawable/gymnastics_64"></ImageButton>
+	<TextView 
+			android:text="@string/legal_disclaimer" 
+			android:textStyle="bold"
+			android:textSize="20sp"
+			android:id="@+id/Disclaimer_Title" 
+			android:layout_toRightOf="@id/ImageButton01"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:paddingTop="20dip"></TextView>
+	<TextView 
+				android:text="@string/disclaimer_text" 
+				android:id="@+id/Disclaimer" 
+				android:paddingLeft="15dip"
+				android:paddingTop="15dip"
+				android:layout_below="@id/ImageButton01"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"></TextView>
+
+</RelativeLayout>
